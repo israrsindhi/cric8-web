@@ -302,7 +302,67 @@
 },
 
       'AUS': { name:'Australia', flag:'🇦🇺', coach:'Andrew McDonald', ODI:["Mitchell Marsh","David Warner","Travis Head","Pat Cummins"], T20:["Glenn Maxwell","Mitchell Marsh","Josh Inglis"], TEST:["Pat Cummins","Steve Smith","Marnus Labuschagne"], ranking_odi:2},
-      'PAK': { name:'Pakistan', flag:'🇵🇰', coach:'Gary Kirsten', ODI:["Babar Azam","Mohammad Rizwan","Fakhar Zaman"], T20:["Babar Azam","Shaheen Afridi","Mohammad Rizwan"], TEST:["Shan Masood","Babar Azam"], ranking_odi:3},
+      'PAK': {
+  name: 'Pakistan',
+  flag: '🇵🇰',
+  coach: 'Mike Hesson',  
+  ODI: [
+    "Shaheen Shah Afridi (c)",
+    "Babar Azam",
+    "Fakhar Zaman",
+    "Abrar Ahmed",
+    "Faheem Ashraf",
+    "Faisal Akram",
+    "Haseebullah",
+    "Hasan Nawaz",
+    "Hussain Talat",
+    "Mohammad Nawaz",
+    "Mohammad Rizwan (wk)",
+    "Mohammad Wasim Jnr",
+    "Naseem Shah",
+    "Saim Ayub",
+    "Salman Ali Agha"
+  ],
+  T20: [
+    "Salman Ali Agha (c)",
+    "Abdul Samad",
+    "Abrar Ahmed",
+    "Babar Azam",
+    "Faheem Ashraf",
+    "Hasan Nawaz",
+    "Mohammad Nawaz",
+    "Mohammad Wasim Jnr",
+    "Mohammad Salman Mirza",
+    "Naseem Shah",
+    "Sahibzada Farhan (wk)",
+    "Saim Ayub",
+    "Shaheen Shah Afridi",
+    "Usman Khan (wk)",
+    "Usman Tariq"
+  ],
+  TEST: [
+   "Shan Masood (c)",
+  "Abdullah Shafique",
+  "Imam-ul-Haq",
+  "Babar Azam",
+  "Saud Shakeel",
+  "Salman Ali Agha",
+  "Mohammad Rizwan (wk)",
+  "Rohail Nazir (wk)",
+  "Kamran Ghulam",
+  "Khurram Shahzad",
+  "Noman Ali",
+  "Aamir Jamal",
+  "Abrar Ahmed",
+  "Sajid Khan",
+  "Asif Afridi",
+  "Faisal Akram",
+  "Haseebullah",
+  "Mir Hamza"
+  ],
+  ranking_odi: 3
+}
+
       'ENG': { name:'England', flag:'🏴', coach:'Brendon McCullum', ODI:["Jos Buttler","Joe Root","Ben Stokes"], T20:["Jos Buttler","Moeen Ali","Sam Curran"], TEST:["Ben Stokes","Joe Root"], ranking_odi:5},
       'NZ': { name:'New Zealand', flag:'🇳🇿', coach:'Gary Stead', ODI:["Kane Williamson","Trent Boult","Devon Conway"], T20:["Kane Williamson","Glenn Phillips"], TEST:["Kane Williamson","Tom Latham"], ranking_odi:4},
       'SA': { name:'South Africa', flag:'🇿🇦', coach:'Rob Walter', ODI:["Temba Bavuma","Quinton de Kock","Kagiso Rabada"], T20:["Aiden Markram","David Miller"], TEST:["Temba Bavuma","Kagiso Rabada"], ranking_odi:6}
@@ -608,6 +668,219 @@
   T20:   { matches: 44,  runs: 53,   avg: 10.60 },
   TEST:  { matches: 0,   runs: 0,    avg: null }
 },
+
+players: {
+  "Babar Azam": {
+    team: 'PAK',
+    role: 'Batter',
+    dob: '15 October 1994',
+    image: 'BabarAzam.png',
+    ODI:   { matches: 134, runs: 6291, avg: 54.23 },
+    T20:   { matches: 128, runs: 4223, avg: 39.83 },
+    TEST:  { matches: 59,  runs: 4235, avg: 42.77 }
+  },
+
+  "Shaheen Shah Afridi": {
+    team: 'PAK',
+    role: 'Bowler',
+    dob: '6 April 2000',
+    image: 'ShaheenShahAfridi.png',
+    ODI:   { matches: 66,  runs: 272,  avg: 13.60 },
+    T20:   { matches: 92,  runs: 298,  avg: 14.90 },
+    TEST:  { matches: 32,  runs: 256,  avg: 7.75 }
+  },
+
+  "Mohammad Rizwan": {
+    team: 'PAK',
+    role: 'Wicket-keeper / Batter',
+    dob: '1 June 1992',
+    image: 'MohammadRizwan.png',
+    ODI:   { matches: 86,  runs: 2523, avg: 42.76 },
+    T20:   { matches: 106, runs: 3414,  avg: null },     // T20I column not present on the Wikipedia summary table
+    TEST:  { matches: 39,  runs: 2273, avg: 40.78 }
+  },
+
+  "Fakhar Zaman": {
+    team: 'PAK',
+    role: 'Batter',
+    dob: '10 April 1990',
+    image: 'FakharZaman.png',
+    ODI:   { matches: 86,  runs: 3651, avg: 46.21 },
+    T20:   { matches: 92,  runs: 1848, avg: 22.81 },
+    TEST:  { matches: 3,   runs: 192,  avg: 32.00 }
+  },
+
+  "Naseem Shah": {
+    team: 'PAK',
+    role: 'Bowler',
+    dob: '15 February 2003',
+    image: 'NaseemShah.png',
+    ODI:   { matches: 30,  runs: 218,  avg: 21.80 },
+    T20:   { matches: 30,  runs: 51,   avg: 7.28 },
+    TEST:  { matches: 20,  runs: 144,  avg: 7.57 }
+  },
+
+  "Abrar Ahmed": {
+    team: 'PAK',
+    role: 'Bowler',
+    dob: '9 October 1998',
+    image: 'AbrarAhmed.png',
+    ODI:   { matches: 11,  runs: 28,   avg: 28.00 },
+    T20:   { matches: 15,  runs: 3,    avg: 3.00 },
+    TEST:  { matches: 10,  runs: 68,   avg: 8.50 }
+  },
+
+  "Mohammad Nawaz": {
+    team: 'PAK',
+    role: 'All-rounder',
+    dob: '21 November 1994',
+    image: 'MohammadNawaz.png',
+    ODI:   { matches: 39,  runs: 434,  avg: 18.86 },
+    T20:   { matches: 76,  runs: 720,  avg: 18.46 },
+    TEST:  { matches: 6,   runs: 144,  avg: 16.00 }
+  },
+
+  "Saim Ayub": {
+    team: 'PAK',
+    role: 'Batter / All-rounder',
+    dob: '11 February 2002',
+    image: 'SaimAyub.png',
+    ODI:   { matches: 12,  runs: 543,  avg: 49.36 },
+    T20:   { matches: 48,  runs: 853,  avg: 19.38 },
+    TEST:  { matches: 8,   runs: 364,  avg: 26.00 }
+  },
+
+  "Shan Masood": {
+    team: 'PAK',
+    role: 'Batter (Test captain)',
+    dob: '14 October 1990',
+    image: 'ShanMasood.png',
+    ODI:   { matches: 9,   runs: 163,  avg: 18.11 },
+    T20:   { matches: 19, runs: 395, avg: 30.38 },    // T20 column not present on the summary table
+    TEST:  { matches: 42,  runs: 2380, avg: 30.12 }
+  },
+
+  "Abdullah Shafique": {
+    team: 'PAK',
+    role: 'Batter',
+    dob: '20 November 1999',
+    image: 'AbdullahShafique.png',
+    ODI:   { matches: 21,  runs: 612,  avg: 32.21 },
+    T20:   { matches: 6,   runs: 64,   avg: 12.80 },
+    TEST:  { matches: 22,  runs: 1504, avg: 38.56 }
+  },
+
+  "Imam-ul-Haq": {
+    team: 'PAK',
+    role: 'Batter',
+    dob: '22 December 1995',
+    image: 'ImamUlHaq.png',
+    ODI:   { matches: 75,  runs: 3152, avg: 47.04 },
+    T20:   { matches: 2, runs: 21, avg: 10.25 },    // T20I column omitted in the summary table
+    TEST:  { matches: 24,  runs: 1568, avg: 37.33 }
+  },
+
+  "Salman Ali Agha": {
+    team: 'PAK',
+    role: 'All-rounder / T20 captain (recently)',
+    dob: '23 November 1993',
+    image: 'SalmanAliAgha.png',
+    ODI:   { matches: 41,  runs: 1116, avg: 39.85 },
+    T20:   { matches: 32,  runs: 561,  avg: 23.37 },
+    TEST:  { matches: 21,  runs: 1317, avg: 38.73 }
+  },
+
+{
+  "Hasan Nawaz": {
+    team: 'PAK',
+    role: 'Batter',
+    dob: '21 August 2002',
+    image: 'HasanNawaz.png',
+    ODI:   { matches: 3,   runs: 112,   avg: 112.00 },  // sourced from MyKhel summary. :contentReference[oaicite:0]{index=0}
+    T20:   { matches: 8,   runs: 105,   avg: 52.50 },   // from Wikipedia T20I column. :contentReference[oaicite:1]{index=1}
+    TEST:  { matches: null, runs: null,   avg: null }
+  },
+
+  "Haseebullah Khan": {
+    team: 'PAK',
+    role: 'Wicket-keeper / Batter',
+    dob: '20 March 2003',
+    image: 'HaseebullahKhan.png',
+    ODI:   { matches: 1,   runs: 0,     avg: 0.00 },   // from Wikipedia summary. :contentReference[oaicite:2]{index=2}
+    T20:   { matches: 3,   runs: 36,    avg: 12.00 },  // from Wikipedia summary. :contentReference[oaicite:3]{index=3}
+    TEST:  { matches: null, runs: null,   avg: null }
+  },
+
+  "Hussain Talat": {
+    team: 'PAK',
+    role: 'Batter / All-rounder',
+    dob: '12 February 1996',
+    image: 'HussainTalat.png',
+    ODI:   { matches: 4,   runs: 75,    avg: 25.00 },  // from HowSTAT & MyKhel. :contentReference[oaicite:4]{index=4}
+    T20:   { matches: 18,  runs: 394,   avg: 24.63 },  // from MyKhel. :contentReference[oaicite:5]{index=5}
+    TEST:  { matches: null, runs: null,   avg: null }
+  },
+
+  "players": {
+  "Kamran Ghulam": {
+    team: 'PAK',
+    role: 'Batter / All-rounder',
+    dob: '10 October 1995',
+    image: 'KamranGhulam.png',
+    ODI:   { matches: 11, runs: 210,   avg: 30.00 },  // :contentReference[oaicite:0]{index=0}
+    T20:   { matches: null, runs: null,   avg: null },
+    TEST:  { matches: 6,  runs: 312,   avg: 28.36 }   // :contentReference[oaicite:1]{index=1}
+  },
+
+  "Khurram Shahzad": {
+    team: 'PAK',
+    role: 'Bowler',
+    dob: '25 November 1999',
+    image: 'KhurramShahzad.png',
+    ODI:   { matches: null, runs: null,   avg: null },
+    T20:   { matches: null, runs: null,   avg: null },
+    TEST:  { matches: 6,  runs: 83,    avg: 9.22 }   // :contentReference[oaicite:2]{index=2}
+  },
+
+  "Aamir Jamal": {
+    team: 'PAK',
+    role: 'Bowler',
+    dob: null,
+    image: 'AamirJamal.png',
+    ODI:   { matches: 3,  runs: 5,     avg: 2.50 },  // :contentReference[oaicite:3]{index=3}
+    T20:   { matches: 6,  runs: 88,    avg: 22.00 },  // :contentReference[oaicite:4]{index=4}
+    TEST:  { matches: 8,  runs: 143,   avg: 28.60 }  // :contentReference[oaicite:5]{index=5}
+  },
+
+  "Sajid Khan": {
+    team: 'PAK',
+    role: 'Bowler',
+    dob: null,
+    image: 'SajidKhan.png',
+    ODI:   { matches: null, runs: null,   avg: null },
+    T20:   { matches: null, runs: null,   avg: null },
+    TEST:  { matches: 10, runs: 160,   avg: 14.54 }  // :contentReference[oaicite:6]{index=6}
+  },
+
+  "Asif Afridi": {
+    team: 'PAK',
+    role: 'Bowler',
+    dob: null,
+    image: 'AsifAfridi.png',
+    ODI:   { matches: null, runs: null,   avg: null },
+    T20:   { matches: null, runs: null,   avg: null },
+    TEST:  { matches: null, runs: null,   avg: null }
+  },
+
+  "Mir Hamza": {
+    team: 'PAK',
+    role: 'Bowler',
+    dob: '10 September 1992',
+    image: 'MirHamza.png',
+    ODI:   { matches: null, runs: null,   avg: null },
+    T20:   { matches: null, runs: null,   avg: null },
+    TEST:  { matches: 7,  runs: null,   avg: null }  // :contentReference[oaicite:7]{index=7}
+  },
 
 "Jasprit Bumrah": {
   team: 'IND',
